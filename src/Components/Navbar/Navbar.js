@@ -1,11 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import './Navbar.css'
 
 export default function Navbar() {
+  
   return (
-    <div>
-      <FontAwesomeIcon icon={faBars} />
+    
+    <nav className="navbar">
+      
       <ul className="nav-ul">
         <li className="nav-li">
           <a className="nav-anchor" href="#Home">
@@ -28,6 +31,6 @@ export default function Navbar() {
           </a>
         </li>
       </ul>
-    </div>
+    </nav>
   )
 }

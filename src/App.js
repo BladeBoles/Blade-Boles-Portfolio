@@ -12,8 +12,7 @@ function App() {
       <Landing />
       <About />
       <Projects />
-      <Contact />
-            
+      <Contact />         
     </main>
   );
 }

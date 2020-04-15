@@ -1,11 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
-.App {
+section.about-me {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-

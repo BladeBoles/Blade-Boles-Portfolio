@@ -1,0 +1,4 @@
+.app1-list, .app2-list {
+  list-style-type: none;
+  padding-left: 0;
+}
