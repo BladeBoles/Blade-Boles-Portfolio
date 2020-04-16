@@ -6,7 +6,7 @@ export default function About() {
     <section className="about-me">
       <h4 className="about-header">About Me</h4>
 
-      <img src="../../assets/headshot.jpg" alt="A black and white outdoor headshot of me" />
+      <img width="100" src="/assets/headshot.jpg" alt="A black and white outdoor headshot of me" />
 
       <div className="about-paragraphs">
         <p className="about-me-paragraph">

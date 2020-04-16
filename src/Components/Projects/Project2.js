@@ -6,7 +6,7 @@ export default function Project2() {
     <section className="app2">
 
       <a href="https://github.com/thinkful-ei-jaguar/Blade-bookmarks-app" className="quiz-image-container">
-        <img className="quiz-image" src="../../assets/quiz-app-portrait.png" alt="A screenshot of my bookmarks app" />
+        <img width="100" className="quiz-image" src="/assets/quiz-app-portrait.png" alt="A screenshot of my bookmarks app" />
       </a>
 
       <ul className="app2-list">
