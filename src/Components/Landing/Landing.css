@@ -1,8 +1,20 @@
 header.landing {
-  margin-top: 6vh;
+  margin-top: 9vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100vw;
+}
+
+.headers-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+  max-width: 450px;
 }
 
 @media screen and (max-width: 599px) {
