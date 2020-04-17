@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
 import './Navbar.css'
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 export default function Navbar() {
   
@@ -11,24 +10,24 @@ export default function Navbar() {
       
       <ul className="nav-ul">
         <li className="nav-li">
-          <a className="nav-anchor" href="#Home">
+          <NavLink exact to="/" className="nav-anchor" activeClassName="selected" >
             Home
-          </a>
+          </NavLink>
         </li>
         <li className="nav-li">
-          <a className="nav-anchor" href="#About">
+          <NavLink exact to="/#about" activeClassName="selected" className="nav-anchor">
             Bio
-          </a>
+          </NavLink>
         </li>
         <li className="nav-li">
-          <a className="nav-anchor" href="#Projects">
+          <NavLink exact to="/#projects" activeClassName="selected" className="nav-anchor">
             Projects
-          </a>
+          </NavLink>
         </li>
         <li className="nav-li">
-          <a className="nav-anchor" href="#Contact">
+          <NavLink exact to="/#contact" activeClassName="selected" className="nav-anchor">
             Contact Me
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>

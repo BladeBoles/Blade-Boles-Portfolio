@@ -3,7 +3,7 @@ import './Landing.css'
 
 export default function Landing() {
   return (
-    <header role="banner" id="banner" className="landing">
+    <header role="banner" className="landing">
       <div className="headers-div">
         <h1>Hello, World!</h1> 
 
@@ -13,10 +13,8 @@ export default function Landing() {
         </h2>
 
         <h3>
-          I develop software and live in the Denver area.  I'm a nice guy, but as 
-          <span className="red-span"> sharp </span> 
-          as my name implies.  I excel at seeing the big picture, and play very well with 
-          <span className="red-span"> JavaScript</span>.
+          I develop software and live in the Denver area.  I excel at seeing the big picture, and play very well with 
+          <span className="red-span"> Full-Stack JavaScript</span>.
         </h3>
       </div>
 

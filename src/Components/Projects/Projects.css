@@ -2,3 +2,60 @@
   list-style-type: none;
   padding-left: 0;
 }
+
+div.projects-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  border-top: 5px solid #406e8e;
+  background-color: #2f2f2f;
+  color: #eff6ee;
+}
+
+h4#projects-header {
+  color: #eff6ee;
+  font-size: 28px;
+}
+
+section.app1, section.app2, section.app3 {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vh;
+  line-height: 1.8;
+}
+
+section.app2 {
+  background-color: #EFF6EE;
+  border-top: 5px solid #406e8e;
+  color: black;
+  padding-top: 5vh;
+}
+
+section.app1, section.app3 {
+  color: white;
+}
+
+ul.app1-list, ul.app2-list, ul.app3-list {
+  max-width: 450px;
+}
+
+span.keyword {
+  color: #e62b1e;
+  font-family: 'Space Mono', monospace;
+  font-size: 19px;
+}
+
+a.repo-links {
+  color: #EFF6EE;
+}
+
+a.repo-links2 {
+  color: black;
+}
+
+img {
+  border: 2px solid #406e8e;
+}

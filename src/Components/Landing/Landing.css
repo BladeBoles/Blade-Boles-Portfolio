@@ -4,6 +4,8 @@ header.landing {
   flex-direction: column;
   align-items: center;
   width: 100vw;
+  background-color: #2f2f2f;
+  color: white;
 }
 
 .headers-div {
@@ -17,8 +19,42 @@ h3 {
   max-width: 450px;
 }
 
+div.header-buttons {
+  margin-bottom: 5vh;
+  margin-top: 3vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+button.landing-button {
+  border: 2px solid #e62b1e;
+  background-color: #2f2f2f;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
+button.projects-button {
+  margin-right: 120px;
+}
+
+
 @media screen and (max-width: 599px) {
   header.landing {
     margin-top: 0;
+  }
+
+  div.header-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button.projects-button {
+    margin-right: 0;
+    margin-bottom: 25px;
   }
 }

@@ -6,7 +6,7 @@ export default function Project1() {
   return (
     <section className="app1">
 
-    <img width="100" src="/src/Sagan.jpg" className="bookmarks-image"  alt="A screenshot of my bookmarks app" />
+    <img width="250" src="/src/Sagan.jpg" className="bookmarks-image"  alt="A screenshot of my bookmarks app" />
 
 
       <ul className="app1-list">

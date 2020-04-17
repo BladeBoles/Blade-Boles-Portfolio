@@ -3,10 +3,10 @@ import './About.css'
 export default function About() {
   return (
     
-    <section className="about-me">
+    <section className="about-me" id="about">
       <h4 className="about-header">About Me</h4>
 
-      <img width="100" src="/assets/headshot.jpg" alt="A black and white outdoor headshot of me" />
+      <img className="my-picture" width="250" src="/assets/headshot.jpg" alt="A black and white outdoor headshot of me" />
 
       <div className="about-paragraphs">
         <p className="about-me-paragraph">
