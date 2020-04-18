@@ -6,7 +6,8 @@ import Project3 from './Project3'
 
 export default function Project() {
   return (
-    <div className="projects-div">
+    <div id="projects" className="projects-div">
+      <div className="blue-div"></div>
       <h4 id="projects-header">Completed Projects</h4>
       <Project1 />
       <Project2 />

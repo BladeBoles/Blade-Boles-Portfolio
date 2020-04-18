@@ -4,6 +4,7 @@ export default function About() {
   return (
     
     <section className="about-me" id="about">
+      <div className="blue-div"></div>
       <h4 className="about-header">About Me</h4>
 
       <img className="my-picture" width="250" src="/assets/headshot.jpg" alt="A black and white outdoor headshot of me" />

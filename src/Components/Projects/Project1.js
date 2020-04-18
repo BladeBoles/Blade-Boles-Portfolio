@@ -5,26 +5,22 @@ import './Projects.css'
 export default function Project1() {
   return (
     <section className="app1">
-
-    <img width="250" src="/src/Sagan.jpg" className="bookmarks-image"  alt="A screenshot of my bookmarks app" />
-
-
+      <img width="350" src="/assets/LLScreenshot.png" className="bookmarks-image"  alt="A screenshot of my bookmarks app" />
       <ul className="app1-list">
 
         <li>
           <span className="keyword">Title:</span> 
-          My Bookmarks
+          Lexical Library
         </li>
-
+      
         <li>
           <span className="keyword">Description:</span> 
-          A humble app that allows a user to add and delete bookmarks.  Bookmarks can be filtered by rating. Built as JS and jQuery practice 
-          and intended for anyone who wants a non-browser dependent way to store bookmarks.
+          An app for cataloging the user’s reading habits.  Created for anyone who wants a simple and unrestricted way to set and track reading goals.
         </li>
 
         <li>
           <span className="keyword">Technologies:</span> 
-          HTML5, CSS3, JavaScript, jQuery
+          HTML5, CSS3, ReactJS, NodeJS, PostgreSQL
         </li>
 
         <li>

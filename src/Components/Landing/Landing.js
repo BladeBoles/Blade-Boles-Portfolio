@@ -14,7 +14,7 @@ export default function Landing() {
 
         <h3>
           I develop software and live in the Denver area.  I excel at seeing the big picture, and play very well with 
-          <span className="red-span"> Full-Stack JavaScript</span>.
+          <span> full stack JavaScript</span>.
         </h3>
       </div>
 
@@ -23,9 +23,7 @@ export default function Landing() {
           View My Creations
         </button>
         
-        <button className="contact-button landing-button">
-          Contact Me
-        </button>
+        
       </div>
 
     </header>

@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import './Navbar.css'
+// import { NavLink } from 'react-router-dom'
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 export default function Navbar() {
@@ -10,7 +11,7 @@ export default function Navbar() {
       
       <ul className="nav-ul">
         <li className="nav-li">
-          <NavLink exact to="/" className="nav-anchor" activeClassName="selected" >
+          <NavLink exact to="/#home" className="nav-anchor" activeClassName="selected" >
             Home
           </NavLink>
         </li>

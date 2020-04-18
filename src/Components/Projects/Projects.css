@@ -8,7 +8,6 @@ div.projects-div {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  border-top: 5px solid #406e8e;
   background-color: #2f2f2f;
   color: #eff6ee;
 }
@@ -29,9 +28,7 @@ section.app1, section.app2, section.app3 {
 
 section.app2 {
   background-color: #EFF6EE;
-  border-top: 5px solid #406e8e;
   color: black;
-  padding-top: 5vh;
 }
 
 section.app1, section.app3 {
@@ -58,4 +55,18 @@ a.repo-links2 {
 
 img {
   border: 2px solid #406e8e;
+}
+
+#projects {
+  padding-top: 8vh;
+  margin-top: -8vh;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}
+
+@media screen and (max-width: 599px) {
+  #projects {
+    padding-top: 0vh;
+    margin-top: 0vh;
+  }
 }

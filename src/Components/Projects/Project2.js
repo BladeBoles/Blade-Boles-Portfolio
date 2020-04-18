@@ -4,7 +4,7 @@ import './Projects.css'
 export default function Project2() {
   return (
     <section className="app2">
-
+      <div className="blue-div"></div>
       <a href="https://github.com/thinkful-ei-jaguar/Blade-bookmarks-app" className="quiz-image-container">
         <img width="250" className="quiz-image" src="/assets/quiz-app-portrait.png" alt="A screenshot of my bookmarks app" />
       </a>

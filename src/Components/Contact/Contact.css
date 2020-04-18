@@ -7,9 +7,31 @@ ul {
   padding: 0;
 }
 
+footer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact {
+  padding-top: 8vh;
+  margin-top: -8vh;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}
+
 @media screen and (max-width: 599px) {
   footer {
     margin-bottom: 7vh;
   }
+
+  #contact {
+    padding-top: 0vh;
+    margin-top: 0vh;
+  }
+
+
 }
 

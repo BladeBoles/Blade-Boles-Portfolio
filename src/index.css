@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+html {
+  width: 100vw;
 }
 
 /** Full CSS Reset:
@@ -27,6 +33,13 @@
 h1, h2, h3, h4 {
   font-family: 'Space Mono', monospace;
   font-weight: 400;
+  padding-top: 20px;
+}
+
+.blue-div {
+  background-color: #406e8e;
+  width: 100vw;
+  height: 5px;
 }
 
 
