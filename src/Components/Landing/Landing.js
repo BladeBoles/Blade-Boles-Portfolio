@@ -19,9 +19,11 @@ export default function Landing() {
       </div>
 
       <div className="header-buttons">
+        <a href="/#projects">
         <button className="projects-button landing-button">
           View My Creations
         </button>
+        </a>
         
         
       </div>

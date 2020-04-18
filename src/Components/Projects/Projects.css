@@ -17,6 +17,11 @@ h4#projects-header {
   font-size: 28px;
 }
 
+h5.app1-header {
+  font-size: 24px;
+  text-decoration: 2px solid #984447 underline;
+}
+
 section.app1, section.app2, section.app3 {
   width: 100vw;
   display: flex;
@@ -33,6 +38,10 @@ section.app2 {
 
 section.app1, section.app3 {
   color: white;
+}
+
+section.app2 {
+  margin-bottom: 0;
 }
 
 ul.app1-list, ul.app2-list, ul.app3-list {

@@ -8,7 +8,7 @@ export default function Project() {
   return (
     <div id="projects" className="projects-div">
       <div className="blue-div"></div>
-      <h4 id="projects-header">Completed Projects</h4>
+      <h4 id="projects-header">Completed Projects:</h4>
       <Project1 />
       <Project2 />
       <Project3 />

@@ -5,39 +5,42 @@ export default function Project2() {
   return (
     <section className="app2">
       <div className="blue-div"></div>
-      <a href="https://github.com/thinkful-ei-jaguar/Blade-bookmarks-app" className="quiz-image-container">
-        <img width="250" className="quiz-image" src="/assets/quiz-app-portrait.png" alt="A screenshot of my bookmarks app" />
-      </a>
 
+      <h5 className="app1-header">Indecisio</h5>
+      <a href="https://indecisio.now.sh/" target="_blank">
+        <img width="350" src="/assets/IndecisioScreenshot.png" className="indecisio-image"  alt="A screenshot of my bookmarks app" />
+      </a>
       <ul className="app2-list">
         
         <li>
-          <span className="keyword">Title:</span> 
-          Jaguar Quiz App
-        </li>
-
-        <li>
           <span className="keyword">Description:</span>
-          A simple multiple-choice quiz app that tests the user’s knowledge of jaguar trivia.  
-          Written as JS practice and intended for anyone who wants to test their jaguar knowledge.
+          An app that helps people find things to do for fun when they’re too bored to decide.  
+          Created during the COVID-19 outbreak and intended for use by bored people around the world.  Created by Blade Boles, Taylor Bradshaw, and William MacNeil.
         </li>
 
         <li>
           <span className="keyword">Technologies:</span> 
-          HTML5, CSS3, vanilla JavaScript
+          HTML5, CSS3, ReactJS, NodeJS, PostgreSQL
         </li>
 
         <li>
           <span className="keyword">Live App: </span>
-          <a href="https://thinkful-ei-jaguar.github.io/quiz-app-project-BladeJT" alt="link to live app" className="repo-links2">
+          <a href="https://indecisio.now.sh/" alt="link to live Indecisio app" className="repo-links2">
             Check it out
           </a> 
         </li>
 
         <li>
-          <span className="keyword">GitHub Repo: </span>
-          <a href="https://github.com/thinkful-ei-jaguar/quiz-app-project-BladeJT" alt="link to app repo" className="repo-links2">
-            See the code
+          <span className="keyword">GitHub Client Repo: </span>
+          <a href="https://github.com/thinkful-ei-jaguar/indecisio-client" alt="link to app client repo" target="_blank" className="repo-links2">
+            See the client code
+          </a>
+        </li>
+
+        <li>
+          <span className="keyword">GitHub Server Repo: </span>
+          <a href="https://github.com/thinkful-ei-jaguar/indecisio-server" alt="link to app server repo" target="_blank" className="repo-links2">
+            See the server code
           </a>
         </li>
 

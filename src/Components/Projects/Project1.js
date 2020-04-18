@@ -5,13 +5,12 @@ import './Projects.css'
 export default function Project1() {
   return (
     <section className="app1">
-      <img width="350" src="/assets/LLScreenshot.png" className="bookmarks-image"  alt="A screenshot of my bookmarks app" />
-      <ul className="app1-list">
 
-        <li>
-          <span className="keyword">Title:</span> 
-          Lexical Library
-        </li>
+      <h5 className="app1-header">Lexical Library</h5>
+      <a href="https://lexical-library.bladeboles.now.sh/" target="_blank">
+        <img width="350" src="/assets/LLScreenshot.png" className="lexical-image"  alt="A screenshot of my bookmarks app" />
+      </a>
+      <ul className="app1-list">
       
         <li>
           <span className="keyword">Description:</span> 
@@ -31,12 +30,18 @@ export default function Project1() {
         </li>
 
         <li>
-          <span className="keyword">GitHub Repo: </span>
-          <a href = "https://github.com/thinkful-ei-jaguar/Blade-bookmarks-app" alt="link to app repo" className="repo-links">
-            See the code
+          <span className="keyword">GitHub Client Repo: </span>
+          <a href = "https://github.com/BladeBoles/LL-client" alt="link to app client repo" className="repo-links">
+            See the client code
           </a>
         </li>
 
+        <li>
+          <span className="keyword">GitHub Server Repo: </span>
+          <a href = "https://github.com/BladeBoles/LL-server" alt="link to app server repo" className="repo-links">
+            See the server code
+          </a>
+        </li>
       </ul>
     </section>
   )
