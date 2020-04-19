@@ -1,3 +1,3 @@
-# Blade Boles' Web Portfolio
+# Blade Boles' Developer Portfolio
 
-## [View Portfolio Site](https://blade-boles-portfolio.now.sh)
+## [View Portfolio](https://blade-boles-portfolio.now.sh)
