@@ -4,7 +4,7 @@ section.about-me {
   align-items: center;
   width: 100vw;
   min-height: 100vh;
-  background-color: #EFF6EE;
+  background-color: #eff6ee;
 }
 
 h4.about-header {
@@ -34,9 +34,34 @@ p.about-me-paragraph {
   background-clip: content-box;
 }
 
+div.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (max-width: 599px) {
   #about {
     padding-top: 0vh;
     margin-top: 0vh;
+  }
+  div.about-paragraphs {
+    max-width: 90vw;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  div.about-section {
+    margin-top: 5vh;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly; 
+  }
+
+  h4.about-header {
+    margin-top: 10vh;
   }
 }

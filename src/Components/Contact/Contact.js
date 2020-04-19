@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <footer className="footer" id="contact">
       <div className="blue-div"></div>
-      <h4>Like what you see?</h4>
+      <h4 className="footer-header">Like what you see?</h4>
       <h4 className="contact-header">Contact me:</h4>    
 
       <p className="email-paragraph">
@@ -16,13 +16,13 @@ export default function Contact() {
       <ul className="footer-contact">  
         <li>
           <a className="footer-items" href="https://github.com/BladeBoles">
-            <img width="100" src="/assets/github-mark.png" alt="GitHub Logo" />
+            <img className="social-logo" width="64" src="/assets/GitHub.png" alt="GitHub Logo" />
           </a>
         </li>
 
         <li>
           <a className="footer-items" href="https://www.linkedin.com/in/blade-boles">
-            <img width="100" src="/assets/linkedin.png" alt="LinkedIn Logo" />
+            <img className="social-logo" width="64" src="/assets/LinkedIn.png" alt="LinkedIn Logo" />
           </a>
         </li>
       </ul>

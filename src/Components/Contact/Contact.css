@@ -1,5 +1,12 @@
-h4 {
+h4.footer-header {
   font-size: 28px;
+  margin-top: 20vh;
+}
+
+h4.contact-header {
+  font-size: 26px;
+  margin-top: 0vh;
+  margin-bottom: 5vh;
 }
 
 ul {
@@ -13,6 +20,19 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #eff6ee;
+}
+
+ul.footer-contact {
+  display: flex;
+  flex-direction: row;
+  width: 320px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+img.social-logo {
+  border: none;
 }
 
 #contact {

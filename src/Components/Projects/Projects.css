@@ -32,7 +32,7 @@ section.app1, section.app2, section.app3 {
 }
 
 section.app2 {
-  background-color: #EFF6EE;
+  background-color: #eff6ee;
   color: black;
 }
 
@@ -73,9 +73,40 @@ img {
   background-clip: content-box;
 }
 
+
+div.project-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (max-width: 599px) {
   #projects {
     padding-top: 0vh;
     margin-top: 0vh;
   }
+
+  ul.app1-list, ul.app2-list, ul.app3-list {
+    max-width: 80vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  div.project-div {
+    margin-top: 5vh;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly; 
+  }
+
+  ul.app1-list, ul.app2-list, ul.app3-list {
+    margin-top: 40px;
+  }
+
+  li {
+    padding-bottom: 12px;
+  }
+
 }
