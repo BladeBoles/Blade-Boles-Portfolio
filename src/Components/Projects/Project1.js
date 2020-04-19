@@ -15,7 +15,11 @@ export default function Project1() {
         
           <li>
             <span className="keyword">Description:</span> 
-            An app for cataloging the user’s reading habits.  Created for anyone who wants a simple and unrestricted way to set and track reading goals.
+            An app for cataloging the user’s reading habits.  
+            Created for anyone who wants a simple and unrestricted way to set 
+            and track reading goals.  This app was created because similar apps
+            that already exist are too restrictive in what media they allow to be
+            cataloged and tend to sell the user's reading habits to advertisers.
           </li>
 
           <li>

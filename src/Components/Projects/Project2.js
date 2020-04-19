@@ -17,8 +17,12 @@ export default function Project2() {
           
           <li>
             <span className="keyword">Description:</span>
-            An app that helps people find things to do for fun when they’re too bored to decide.  
-            Created during the COVID-19 outbreak and intended for use by bored people around the world.  Created by Blade Boles, Taylor Bradshaw, and William MacNeil.
+            An app that helps people find things to do for fun when they’re too 
+            bored to decide.  Created during the COVID-19 outbreak and intended 
+            for use by bored people around the world.  This app was created because
+            everyone on the development team had experienced ennui during quarantine
+            and wanted a way to help themselves and others survive lockdown boredom.
+            Created by Blade Boles, Taylor Bradshaw, and William MacNeil.
           </li>
 
           <li>

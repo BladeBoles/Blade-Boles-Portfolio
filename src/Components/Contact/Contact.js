@@ -10,7 +10,7 @@ export default function Contact() {
 
       <p className="email-paragraph">
         <span className="keyword">Email:</span> 
-        bladerboles@gmail.com
+        <a href="mailto:bladerboles@gmail.com" className="email">bladerboles@gmail.com</a>
       </p>
 
       <ul className="footer-contact">  

@@ -18,7 +18,9 @@ export default function Project3() {
             <span className="keyword">Description:</span>
             A simple app that helps the user learn romanized Japanese vocabulary words via 
             the spaced repetition learning technique.  Intended for anyone interested in Japanese 
-            culture or who wants to begin learning Japanese vocabulary.  
+            culture or who wants to begin learning Japanese vocabulary.    
+            Inspired by the developers' interest in various aspects of Japanese culture
+            and as a way to explore learning Japanese as a second language.
             Created by Blade Boles and Jaye Laguardia.
           </li>
 

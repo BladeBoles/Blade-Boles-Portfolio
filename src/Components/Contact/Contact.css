@@ -42,6 +42,12 @@ img.social-logo {
   background-clip: content-box;
 }
 
+a.email {
+  font-size: 19px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
 @media screen and (max-width: 599px) {
   footer {
     margin-bottom: 7vh;
