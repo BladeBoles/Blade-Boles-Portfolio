@@ -21,6 +21,7 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: #eff6ee;
+  margin-bottom: 7vh;
 }
 
 ul.footer-contact {
@@ -34,13 +35,11 @@ ul.footer-contact {
 img.social-logo {
   border: none;
 }
-
 #contact {
-  padding-top: 8vh;
-  margin-top: -8vh;
-  -webkit-background-clip: content-box;
-  background-clip: content-box;
+  padding-top: 0vh;
+  margin-top: 0vh;
 }
+
 
 a.email {
   font-size: 19px;
@@ -48,14 +47,16 @@ a.email {
   font-family: 'Montserrat', sans-serif;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (min-width: 600px) {
   footer {
-    margin-bottom: 7vh;
+    margin-bottom: 0vh;
   }
-
+  
   #contact {
-    padding-top: 0vh;
-    margin-top: 0vh;
+    padding-top: 8vh;
+    margin-top: -8vh;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
   }
 
 

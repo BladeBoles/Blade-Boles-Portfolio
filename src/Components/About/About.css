@@ -19,7 +19,7 @@ img.my-picture {
 }
 
 div.about-paragraphs {
-  max-width: 450px;
+  max-width: 90vw;
 }
 
 p.about-me-paragraph {
@@ -27,12 +27,6 @@ p.about-me-paragraph {
   line-height: 1.6;
 }
 
-#about {
-  padding-top: 8vh;
-  margin-top: -8vh;
-  -webkit-background-clip: content-box;
-  background-clip: content-box;
-}
 
 div.about-section {
   display: flex;
@@ -40,13 +34,15 @@ div.about-section {
   align-items: center;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (min-width: 600px) {
   #about {
-    padding-top: 0vh;
-    margin-top: 0vh;
+    padding-top: 8vh;
+    margin-top: -8vh;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
   }
   div.about-paragraphs {
-    max-width: 90vw;
+    max-width: 450px;
   }
 
 }

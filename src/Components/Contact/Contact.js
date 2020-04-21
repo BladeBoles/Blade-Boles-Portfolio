@@ -15,13 +15,13 @@ export default function Contact() {
 
       <ul className="footer-contact">  
         <li>
-          <a className="footer-items" href="https://github.com/BladeBoles">
+          <a className="footer-items" target="_blank" href="https://github.com/BladeBoles">
             <img className="social-logo" width="64" src="/assets/GitHub.png" alt="GitHub Logo" />
           </a>
         </li>
 
         <li>
-          <a className="footer-items" href="https://www.linkedin.com/in/blade-boles">
+          <a className="footer-items" target="_blank" href="https://www.linkedin.com/in/blade-boles">
             <img className="social-logo" width="64" src="/assets/LinkedIn.png" alt="LinkedIn Logo" />
           </a>
         </li>

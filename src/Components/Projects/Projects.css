@@ -45,7 +45,7 @@ section.app2 {
 }
 
 ul.app1-list, ul.app2-list, ul.app3-list {
-  max-width: 450px;
+  max-width: 80vw;
 }
 
 span.keyword {
@@ -73,10 +73,8 @@ img {
 }
 
 #projects {
-  padding-top: 8vh;
-  margin-top: -8vh;
-  -webkit-background-clip: content-box;
-  background-clip: content-box;
+  padding-top: 0vh;
+  margin-top: 0vh;
 }
 
 
@@ -86,14 +84,16 @@ div.project-div {
   align-items: center;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (min-width: 600px) {
   #projects {
-    padding-top: 0vh;
-    margin-top: 0vh;
+    padding-top: 8vh;
+    margin-top: -8vh;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
   }
 
   ul.app1-list, ul.app2-list, ul.app3-list {
-    max-width: 80vw;
+    max-width: 450px;
   }
 }
 

@@ -1,5 +1,5 @@
 header.landing {
-  margin-top: 8vh;
+  margin-top: 0vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,7 @@ header.landing {
 
 h3 {
   text-align: center;
-  max-width: 450px;
+  max-width: 90vw;
 }
 
 div.header-buttons {
@@ -29,6 +29,8 @@ div.header-buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 
 }
 
@@ -47,24 +49,25 @@ span.red-span {
   color: #e62b1e;
 }
 
+button.projects-button {
+  margin-right: 0;
+  margin-bottom: 25px;
+}
 
 
-@media screen and (max-width: 599px) {
+
+
+@media screen and (min-width: 600px) {
   header.landing {
-    margin-top: 0;
+    margin-top: 8vh;
   }
 
   div.header-buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  button.projects-button {
-    margin-right: 0;
-    margin-bottom: 25px;
+    flex-direction: row;
+    align-items: flex-start;
   }
 
   h3 {
-    max-width: 90vw;
+    max-width: 450px;
   }
 }
