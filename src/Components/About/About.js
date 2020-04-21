@@ -12,7 +12,12 @@ export default function About() {
 
         <div className="about-paragraphs">
           <p className="about-me-paragraph">
-            I am currently leveling up my development skills full time in Thinkful’s Engineering Immersion program.  Learning new things never ceases to excite me and I can't wait to see what my peers at my first development job will have to teach me.  I am drawn to development because I see it as the ultimate marriage of logic and creativity.
+            I am currently leveling up my development skills full time 
+            in Thinkful’s Engineering Immersion program.  Learning new 
+            things never ceases to excite me and I can't wait to see what
+            things I will learn while working with my next professional
+            development team.  I am drawn to development because I see it 
+            as the ultimate marriage of logic and creativity.
           </p>
 
           <p className="about-me-paragraph">

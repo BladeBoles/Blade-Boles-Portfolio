@@ -16,7 +16,7 @@ export default function Project2() {
         <ul className="app2-list">
           
           <li>
-            <span className="keyword">Description:</span>
+            <span className="keyword2">Description:</span>
             An app that helps people find things to do for fun when they’re too 
             bored to decide.  Created during the COVID-19 outbreak and intended 
             for use by bored people around the world.  This app was created because
@@ -26,27 +26,27 @@ export default function Project2() {
           </li>
 
           <li>
-            <span className="keyword">Technologies:</span> 
+            <span className="keyword2">Technologies:</span> 
             HTML5, CSS3, ReactJS, NodeJS, PostgreSQL
           </li>
 
           <li>
-            <span className="keyword">Live App: </span>
-            <a href="https://indecisio.now.sh/" alt="link to live Indecisio app" className="repo-links2">
+            <span className="keyword2">Live App: </span>
+            <a href="https://indecisio.now.sh/" target="_blank" alt="link to live Indecisio app" className="repo-links2">
               Check it out
             </a> 
           </li>
 
           <li>
-            <span className="keyword">GitHub Client Repo: </span>
+            <span className="keyword2">GitHub Client Repo: </span>
             <a href="https://github.com/thinkful-ei-jaguar/indecisio-client" alt="link to app client repo" target="_blank" className="repo-links2">
               Client
             </a>
           </li>
 
           <li>
-            <span className="keyword">GitHub Server Repo: </span>
-            <a href="https://github.com/thinkful-ei-jaguar/indecisio-server" alt="link to app server repo" target="_blank" className="repo-links2">
+            <span className="keyword2">GitHub Server Repo: </span>
+            <a href="https://github.com/stronghearth/indecisio-server" alt="link to app server repo" target="_blank" className="repo-links2">
               Server
             </a>
           </li>

@@ -9,7 +9,7 @@ export default function Contact() {
       <h4 className="contact-header">Contact me:</h4>    
 
       <p className="email-paragraph">
-        <span className="keyword">Email:</span> 
+        <span className="keyword2">Email:</span> 
         <a href="mailto:bladerboles@gmail.com" className="email">bladerboles@gmail.com</a>
       </p>
 
