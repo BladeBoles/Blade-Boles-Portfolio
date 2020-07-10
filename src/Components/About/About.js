@@ -12,16 +12,21 @@ export default function About() {
 
         <div className="about-paragraphs">
           <p className="about-me-paragraph">
-            I am currently leveling up my development skills full time 
-            in Thinkful’s Engineering Immersion program.  Learning new 
-            things never ceases to excite me and I can't wait to see what
-            things I will learn while working with my next professional
+            I recently graduated from Thinkful’s Engineering Immersion program.
+            Learning new things always excites me and I can't wait to see 
+            what I will learn while working with my next professional
             development team.  I am drawn to development because I see it 
             as the ultimate marriage of logic and creativity.
           </p>
 
           <p className="about-me-paragraph">
-            When I’m not writing code I’m gaming, reading, adventuring, or struggling to ride a snowboard.  I believe that a sense of humor and a sense of purpose are two of the most important things a person can have.  I left a career in chemistry because the roadblocks to achieving the latter were too arbitrary.
+            When I’m not writing code I’m gaming, reading, 
+            adventuring, thinking about big ideas, 
+            or struggling to ride a snowboard.  
+            I believe that a sense of humor and a sense of purpose 
+            are two of the most important things a person can have in life.  
+            A bit of an idealist, I spend a lot of time learning
+            about how the STEM fields can make our world a better place.
           </p>
         </div>
       </div>
