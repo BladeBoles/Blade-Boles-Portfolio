@@ -9,6 +9,7 @@ nav.navbar {
   height: 8vh;
 }
 
+
 ul.nav-ul {
   display: flex;
   flex-direction: row;
@@ -32,6 +33,15 @@ li.nav-li {
   font-family: 'Space Mono', monospace;
   font-size: 17px;
 }
+
+.nav-anchor:hover {
+  text-decoration: underline;
+  text-decoration-color: #e62b1e;
+  text-decoration-thickness: 2px;
+}
+
+
+
 
 @media screen and (min-width: 600px) {
   nav.navbar {

@@ -10,7 +10,7 @@ export default function Project2() {
 
       <div className="project-div">
 
-        <a href="https://indecisio.now.sh/" target="_blank">
+        <a href="https://indecisio.now.sh/" target="_blank" rel="noopener noreferrer">
           <img width="350" src="/assets/IndecisioScreenshot.png" className="indecisio-image"  alt="A screenshot of my bookmarks app" />
         </a>
         <ul className="app2-list">
@@ -32,21 +32,21 @@ export default function Project2() {
 
           <li>
             <span className="keyword2">Live App: </span>
-            <a href="https://indecisio.now.sh/" target="_blank" alt="link to live Indecisio app" className="repo-links2">
+            <a href="https://indecisio.now.sh/" target="_blank" rel="noopener noreferrer" alt="link to live Indecisio app" className="repo-links2">
               Check it out
             </a> 
           </li>
 
           <li>
             <span className="keyword2">GitHub Client Repo: </span>
-            <a href="https://github.com/thinkful-ei-jaguar/indecisio-client" alt="link to app client repo" target="_blank" className="repo-links2">
+            <a href="https://github.com/thinkful-ei-jaguar/indecisio-client" alt="link to app client repo" target="_blank" rel="noopener noreferrer" className="repo-links2">
               Client
             </a>
           </li>
 
           <li>
             <span className="keyword2">GitHub Server Repo: </span>
-            <a href="https://github.com/stronghearth/indecisio-server" alt="link to app server repo" target="_blank" className="repo-links2">
+            <a href="https://github.com/stronghearth/indecisio-server" alt="link to app server repo" target="_blank" rel="noopener noreferrer" className="repo-links2">
               Server
             </a>
           </li>

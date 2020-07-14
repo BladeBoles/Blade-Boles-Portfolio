@@ -9,7 +9,7 @@ export default function Project3() {
       <h5 className="app1-header">Weebify</h5>
 
       <div className="project-div">
-        <a href="https://weebify.bladeboles.now.sh/" target="_blank">
+        <a href="https://weebify.bladeboles.now.sh/" target="_blank" rel="noopener noreferrer">
           <img width="350" src="/assets/WeebifyScreenshot.png" className="indecisio-image"  alt="A screenshot of my bookmarks app" />
         </a>
         <ul className="app2-list">
@@ -31,21 +31,21 @@ export default function Project3() {
 
           <li>
             <span className="keyword">Live App: </span>
-            <a href="https://weebify.bladeboles.now.sh/" target="_blank" alt="link to live Indecisio app" className="repo-links">
+            <a href="https://weebify.bladeboles.now.sh/" target="_blank" rel="noopener noreferrer" alt="link to live Indecisio app" className="repo-links">
               Check it out
             </a> 
           </li>
 
           <li>
             <span className="keyword">GitHub Client Repo: </span>
-            <a href="https://github.com/thinkful-ei-jaguar/Cap-2-Client-Jaye-Blade" alt="link to app client repo" target="_blank" className="repo-links">
+            <a href="https://github.com/thinkful-ei-jaguar/Cap-2-Client-Jaye-Blade" alt="link to app client repo" target="_blank" rel="noopener noreferrer" className="repo-links">
               Client
             </a>
           </li>
 
           <li>
             <span className="keyword">GitHub Server Repo: </span>
-            <a href="https://github.com/thinkful-ei-jaguar/Cap-2-Server-Jaye-Blade" alt="link to app server repo" target="_blank" className="repo-links">
+            <a href="https://github.com/thinkful-ei-jaguar/Cap-2-Server-Jaye-Blade" alt="link to app server repo" target="_blank" rel="noopener noreferrer" className="repo-links">
               Server
             </a>
           </li>

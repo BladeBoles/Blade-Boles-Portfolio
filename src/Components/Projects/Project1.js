@@ -8,7 +8,7 @@ export default function Project1() {
 
       <h5 className="app1-header">Lexical Library</h5>
       <div className="project-div">
-        <a href="https://lexical-library.bladeboles.now.sh/" target="_blank">
+        <a href="https://lexical-library.bladeboles.now.sh/" target="_blank" rel="noopener noreferrer">
           <img width="350" src="/assets/LLScreenshot.png" className="lexical-image" alt="A screenshot of my bookmarks app" />
         </a>
         <ul className="app1-list">
@@ -29,21 +29,21 @@ export default function Project1() {
 
           <li>
             <span className="keyword">Live App: </span>
-            <a href ="https://lexical-library.bladeboles.now.sh/" target="_blank" alt="link to live app" className="repo-links">
+            <a href ="https://lexical-library.bladeboles.now.sh/" target="_blank" rel="noopener noreferrer" alt="link to live app" className="repo-links">
               Check it out
             </a> 
           </li>
 
           <li>
             <span className="keyword">GitHub Client Repo: </span>
-            <a href = "https://github.com/BladeBoles/LL-client" target="_blank" alt="link to app client repo" className="repo-links">
+            <a href = "https://github.com/BladeBoles/LL-client" target="_blank" rel="noopener noreferrer" alt="link to app client repo" className="repo-links">
               Client
             </a>
           </li>
 
           <li>
             <span className="keyword">GitHub Server Repo: </span>
-            <a href = "https://github.com/BladeBoles/LL-server" target="_blank" alt="link to app server repo" className="repo-links">
+            <a href = "https://github.com/BladeBoles/LL-server" target="_blank" rel="noopener noreferrer" alt="link to app server repo" className="repo-links">
               Server
             </a>
           </li>
